@@ -1,0 +1,31 @@
+{
+  "name": "crud_users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./src/index.js",
+    "dev-watch": "node --watch ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheLuizZ/CRUD_USERS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheLuizZ/CRUD_USERS/issues"
+  },
+  "homepage": "https://github.com/TheLuizZ/CRUD_USERS#readme",
+  "dependencies": {
+    "bcrypt": "6.0.0",
+    "cookie-parser": "1.4.7",
+    "dotenv": "17.2.0",
+    "express": "5.1.0",
+    "jsonwebtoken": "9.0.2",
+    "mssql": "11.0.1"
+  }
+}
